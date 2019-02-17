@@ -1,0 +1,16 @@
+{
+  "name": "googlescripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "rm -Rf node_modules/ && clasp push && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/clasp": "^2.0.1",
+    "@types/google-apps-script": "0.0.37"
+  }
+}
